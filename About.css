@@ -1,0 +1,289 @@
+/* Nav Bar */
+
+.nav-link {
+  white-space: nowrap;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 12%;
+  padding-bottom: 0px;
+}
+
+.nav-link::after {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform 0.3s;
+}
+
+.nav-link:hover::after {
+  transform: scale(1, 1);
+}
+
+.fixed-top {
+  background-color: black;
+}
+
+.logo {
+  margin-bottom: 5px;
+}
+
+.nav-link {
+  margin-top: 0px;
+}
+
+.nav-item {
+  font-size: 18px;
+  padding: 0px 18px;
+}
+
+.navbar {
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.navbar-nav {
+  padding-right: 380px;
+  font-family: proxima-nova, sans-serif;
+}
+
+/* main */
+
+#main {
+  font-family: source-han-sans-japanese, sans-serif;
+  color: #2699fb;
+  margin: 6% 0% 10% 0%;
+}
+
+.Wework-title {
+  color: #2b2b2b;
+  text-align: center;
+  margin: 10% 0%;
+}
+
+.work-box {
+  text-align: center;
+}
+
+.Wework-title h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.work-box h4 {
+  font-weight: bold;
+}
+
+.work-box img {
+  margin: 15% 0%;
+}
+
+.light-bulb {
+  width: 40%;
+  height: 38%;
+}
+
+.textone {
+  margin-top: 5px;
+  margin-right: 6px;
+}
+
+.textone img {
+  width: 27px;
+  height: 27px;
+}
+
+.texttwo {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.texttwo img {
+  width: 27px;
+  height: 27px;
+}
+
+.Vertical-line1 {
+  background-color: #a5a5a5;
+  width: 2px;
+  height: 250px;
+}
+
+.Vertical-line2 {
+  background-color: #a5a5a5;
+  width: 2px;
+  height: 250px;
+  margin-left: 7%;
+}
+
+.work-box .Workboxtext {
+  text-align: left;
+  display: inline-block;
+}
+
+/* main-under */
+
+#main-under {
+  color: #2699fb;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.Human-img {
+  width: 400px;
+  height: 400px;
+  margin: 0px;
+}
+
+.Small-team {
+  font-family: proxima-nova, sans-serif;
+  text-align: left;
+  padding-top: 15%;
+}
+
+.Small-team h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.textone-under {
+  margin-top: 9px;
+  margin-right: 10px;
+}
+
+.textone-under img {
+  width: 27px;
+  height: 27px;
+}
+
+.texttwo-under {
+  margin-top: 9px;
+  margin-right: 10px;
+}
+
+.texttwo-under img {
+  width: 27px;
+  height: 27px;
+}
+
+.Explanation {
+  font-family: source-han-sans-japanese, sans-serif;
+  text-align: right;
+  padding-top: 11%;
+}
+
+.Explanation-text {
+  text-align: left;
+  display: inline-block;
+}
+
+/* main2 */
+
+.main2-icon {
+  text-align: center;
+  margin: 22% 0%;
+}
+
+.main2-left {
+  background-color: #2699fb;
+}
+
+.main2-text {
+  text-align: center;
+  margin: 22% 0%;
+}
+
+.main2-right {
+  font-family: source-han-sans-japanese, sans-serif;
+  color: #fff;
+  background-color: #2b2b2b;
+}
+
+.main2-Best {
+  font-size: 15px;
+}
+
+.main2-contact a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+}
+/* footer */
+
+#footer {
+  background-color: black;
+}
+
+a.footer-under {
+  text-decoration: none;
+}
+
+.footer-box p {
+  color: #fff;
+  margin: 17% 0% 0% 0%;
+}
+
+.footer-box {
+  font-family: proxima-nova, sans-serif;
+}
+
+.footer-about {
+  text-align: center;
+}
+
+.footer-under {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 12%;
+}
+
+.footer-under::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform 0.3s;
+}
+
+.footer-under:hover::after {
+  transform: scale(1, 1);
+}
+
+.footer-item {
+  font-size: 17px;
+}
+
+.footer-company {
+  text-align: center;
+}
+
+.footer-UX {
+  text-align: center;
+}
+
+.footer-contact {
+  text-align: center;
+}
+
+.footer-LISE {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 3%;
+}
