@@ -29,7 +29,7 @@ html,body
 
 .nav-link::after {
   position: absolute;
-  bottom: 0px;
+  bottom: 8px;
   left: 0;
   content: "";
   width: 100%;
