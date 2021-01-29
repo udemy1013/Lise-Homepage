@@ -215,8 +215,9 @@ div .our-box-mobile{
 }
 
 .business-div{
-  margin-left: -15px;
   height: 100%;
+  background-image: url("images/path_249.png");
+  background-repeat: no-repeat;
 }
 
 .ux-img{
@@ -239,17 +240,18 @@ div .our-box-mobile{
 
 .business-text p{
   font-size: 12px;
+  margin: auto;
 }
 
-.box-border3 {
+/* .box-border3 {
   position: absolute;
-  top: 1%;
+  top: 0%;
   left: 4%;
   width: 85%;
   height: 100%;
   border: 1px solid #707070;
   z-index: 10;
-}
+} */
 
 
 
@@ -319,15 +321,40 @@ div .our-box-mobile{
 
   .box-border2 {
     position: absolute;
-    top: 2%;
+    top: 3.5%;
     left: 5%;
     width: 90%;
     height: 95%;
     border: 1px solid #707070;
     z-index: 10;
   }
+
+  /* .box-border3 {
+    position: absolute;
+    top: 0%;
+    left: 4%;
+    width: 85%;
+    height: 100%;
+    border: 1px solid #707070;
+    z-index: 10;
+  } */
+
   
+
+  .business-text{
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+
+  .Business-content{
+    margin-top: 50px;
+  }
+
+  .Business-content .col-md-12{
+    margin: 30px 10px;
+  }
 }
+
 
 /* News */
 
