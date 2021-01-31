@@ -116,7 +116,7 @@ html,body
 
 /* Title Responsive */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
 
   .header {
     background-image: url("images/Title_bg.png");
@@ -224,6 +224,8 @@ div .our-box-mobile{
 
 .business-text{
   margin-right: 30px;
+  margin-left: 130px;
+  padding-top: 8px;
 }
 
 .business-text div{
@@ -276,7 +278,7 @@ div .our-box-mobile{
 
 /* Our Work  Responsive*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
 
 div .Business-content{
   margin-left: 0px;
@@ -524,7 +526,7 @@ div .our-box-mobile{
 }
 
 /* News Responsive */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
 
 .img-and-text1{
   position: relative;
