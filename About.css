@@ -100,9 +100,14 @@ html,body
   margin: 15% 0%;
 }
 
+.Steal-man {
+  width: 40%;
+  /* height: 37%; */
+}
+
 .light-bulb {
   width: 40%;
-  height: 38%;
+  /* height: 35%; */
 }
 
 .textone {
@@ -143,6 +148,11 @@ html,body
   display: inline-block;
 }
 
+.work-box .Workboxtext-create{
+  text-align: left;
+  display: inline-block;
+}
+
 .work-box .Workboxtext-steal {
   text-align: left;
   display: inline-block;
@@ -176,7 +186,7 @@ html,body
   }
 
   .light-bulb {
-    height: 35%;
+    /* height: 35%; */
     }
 
   .Steal-box {
@@ -190,7 +200,7 @@ html,body
 
 }
 
-@media screen and  (min-width:768px) and ( max-width:1080px) {
+@media screen and  (min-width:376px) and ( max-width:992px) {
 
   .Wework-title {
     margin: 20% 0%;
@@ -210,28 +220,71 @@ html,body
   }
 
   .Improvement {
-    margin-bottom: 60px;
+    margin-bottom: 20%;
+    margin-left: 28px;
   }
 
   .Improvement-man {
+    width: 40%;
+    /* height: 37%; */
+  }
 
-    width: 30%;
+  .textone {
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+
+  .textone img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .texttwo {
+    margin-top: 15px;
+    margin-right: 15px;
+    }
+
+  .texttwo img {
+    width: 35px;
+    height: 35px;
   }
 
   .Workboxtext {
-    margin-left: 50px;
+    font-size: 130%;
+    margin-left: 60px;
+    margin-right: 40px;
   }
 
   .Create-box {
-    margin-bottom: 30px;
+    margin-bottom: 20%;
   }
 
   .light-bulb {
-    width: 25%;
+    width: 40%;
+    /* height: 38%; */
+  }
+
+  .Workboxtext-create {
+    font-size: 140%;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .Steal-box {
+    margin-left: 20px;
+  }
+
+   .Steal-man {
+    width: 40%;
+    /* height: 38%; */
+  }
+
+  .Workboxtext-steal {
+    font-size: 130%;
+    margin-left: 45px;
   }
 
   
-
 }
 
 
@@ -294,7 +347,7 @@ html,body
 
 /* main-under Responsive */
 
-@media screen and (max-width: 375px){
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .Small-team {
     text-align: center;
   }
@@ -307,13 +360,25 @@ html,body
   }
 
   .Explanation-text {
-    padding-right: 47px;
+    padding-right: 6%;
     padding-bottom: 30%;
   }
 
   }
 
+  @media screen and (min-width:500px) and (max-width: 767px) {
+    
+    .Explanation-text {
+      font-size: 25px;
+    }
+
+  }
+
   @media screen and (min-width:768px) and ( max-width:1080px){
+
+    #main-under {
+      margin-top: 150px;
+    }
 
     .Small-team h2{
       text-align: center;
@@ -321,8 +386,8 @@ html,body
     }
     
     .Human-img {
-      padding-top: 100px;
-      padding-bottom: 30px;
+      padding-top: 15%;
+      /* padding-bottom: 30px; */
       height: 100%;
       width: 78%;
     }
@@ -333,8 +398,48 @@ html,body
       padding-bottom: 30%;
     }
     
+    .textone-under img {
+      width: 42px;
+      height: 42px;
+    }
+  
+    .texttwo-under img {
+      width: 42px;
+      height: 42px;
+    }
+
   }
 
+
+  @media screen and (min-width: 992px) and (max-width: 1199px){
+    
+    .Small-team h2 {
+      font-size: 35px;
+    }
+
+    .Human-img {
+      padding-top: 0px;
+      width: 260px;
+      height: 260px;
+    }
+
+    .Explanation-text {
+      font-size: 15px;
+      padding-right: 0px;
+    }
+    
+    .textone-under img {
+      width: 27px;
+      height: 27px;
+    }
+
+    .texttwo-under img {
+      width: 27px;
+      height: 27px;
+    }
+
+
+  }
 
 /* main2 */
 
