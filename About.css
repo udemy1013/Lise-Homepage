@@ -160,7 +160,7 @@ html,body
 
 /* main Responsive */
 
-@media screen and (max-width:375px){
+@media screen and (max-width:375px) {
 
   .Vertical-line1 {
     display: none;
@@ -184,10 +184,6 @@ html,body
   .Create-box {
     margin-bottom: 100px;
   }
-
-  .light-bulb {
-    /* height: 35%; */
-    }
 
   .Steal-box {
     margin-bottom: 100px;
@@ -360,13 +356,17 @@ html,body
   }
 
   .Explanation-text {
-    padding-right: 6%;
+    /* padding-right: 15%; */
     padding-bottom: 30%;
   }
 
   }
 
   @media screen and (min-width:500px) and (max-width: 767px) {
+
+    .Explanation {
+      text-align: center;
+    }
     
     .Explanation-text {
       font-size: 25px;
@@ -411,7 +411,7 @@ html,body
   }
 
 
-  @media screen and (min-width: 992px) and (max-width: 1199px){
+  @media screen and (min-width: 991px) and (max-width: 1199px){
     
     .Small-team h2 {
       font-size: 35px;

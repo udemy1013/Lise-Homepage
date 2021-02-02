@@ -154,7 +154,7 @@ html,body
 
 /* main Responsive */
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 767px) {
   
   .table{
     font-size: 70%;
