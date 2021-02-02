@@ -82,15 +82,18 @@ html,body
 /* header Responsive */
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
+  
   .title{
     font-size: 30px;
+    margin-top: 40%;
   }
+
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 376px) and (max-width: 768px) {
   .title{
-    margin-top: 20%;
+    margin-top: 30%;
   }
 }
 
@@ -154,18 +157,22 @@ html,body
 
 /* main Responsive */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   
-  .table{
+  #main {
+    margin-bottom: 30%;
+  }
+
+  .table {
     font-size: 70%;
   }
   
-  .main-box{
+  .main-box {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .item{
+  .item {
     font-size: 12px;
     padding-top: 5px;
   }
