@@ -116,6 +116,34 @@ html,body
 
 /* Title Responsive */
 
+@media screen and (max-width: 414px) {
+
+  #title .header {
+    height: 375px;
+  }
+  
+  #title .title-text {
+    height: 395px;
+  }
+
+  #title .box-border {
+    height: 343px;
+  }
+
+  #title .box-center {
+    padding-top: 115px;
+  }
+
+  #title .title-text h1 {
+    font-size: 50px;
+  }
+
+  #title .title-text p {
+    font-size: 18px;
+  }
+
+}
+
 @media screen and (max-width: 991px) {
 
   .header {
@@ -253,29 +281,6 @@ div .our-box-mobile{
   z-index: 10;
 }
 
-
-
-.we-box {
-  position: relative;
-  right: 350px;
-  display: inline-block;
-  transform: rotate(-90deg);
-  padding-left: 37%;
-}
-
-.we-work {
-  display: inline-block;
-  font-family: source-han-sans-japanese, sans-serif;
-  font-size: 10px;
-}
-
-.wework-line {
-  display: inline-block;
-  width: 22px;
-  border: 0.5px solid black;
-}
-
-
 /* Our Work  Responsive*/
 
 @media screen and (max-width: 991px) {
@@ -362,8 +367,6 @@ div .our-box-mobile{
     margin: 30px 10px;
   }
 
-  .business-div{
-  }
 }
 
 
@@ -411,7 +414,8 @@ div .our-box-mobile{
 
 .news-icon2 {
   background-color: #f3bb2d;
-  height: 13px;
+  height: 15px;
+  width: 80px;
   display: inline-block;
 }
 
@@ -426,7 +430,7 @@ div .our-box-mobile{
 .news-icon3 {
   background-color: #f3bb2d;
   width: 45px;
-  height: 13px;
+  height: 15px;
   display: inline-block;
 }
 
@@ -503,28 +507,6 @@ div .our-box-mobile{
   font-family: proxima-nova, sans-serif;
 }
 
-.attention-box {
-  position: relative;
-  bottom: 100px;
-  right: 350px;
-  display: inline-block;
-  transform: rotate(-90deg);
-  padding-left: 37%;
-}
-
-.attention-news {
-  color: #fff;
-  display: inline-block;
-  font-family: source-han-sans-japanese, sans-serif;
-  font-size: 10px;
-}
-
-.attention-line {
-  display: inline-block;
-  width: 22px;
-  border: 0.5px solid #fff;
-}
-
 /* News Responsive */
 @media screen and (max-width: 991px) {
 
@@ -563,26 +545,6 @@ div .our-box-mobile{
   font-size: 15px;
 }
 
-.contact-box {
-  position: relative;
-  bottom: 100px;
-  right: 900px;
-  display: inline-block;
-  transform: rotate(-90deg);
-}
-
-.contact-text {
-  display: inline-block;
-  font-family: source-han-sans-japanese, sans-serif;
-  font-size: 10px;
-}
-
-.contact-line {
-  display: inline-block;
-  width: 22px;
-  border: 0.5px solid black;
-}
-
 .btn {
   width: 220px;
   height: 68px;
@@ -610,7 +572,7 @@ div .our-box-mobile{
   background-color: black;
 }
 
-a.footer-under {
+#footer a {
   text-decoration: none;
 }
 
@@ -677,3 +639,4 @@ a.footer-under {
   font-size: 10px;
   margin-bottom: 3%;
 }
+
